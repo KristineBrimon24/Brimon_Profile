@@ -1,0 +1,149 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Profile Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="home-style.css">
+</head>
+<body>
+
+<!--header section design-->
+    <div class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+<!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Kristine Brimon</h1>
+            <h3>And I'm a <span>BSIT 2C Student</span></h3>
+            <p>Most good programmers do programming not because they expect to get
+            paid or get adulation by the public,but because it is fun to program.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="#"><i class='bx bxl-telegram' ></i></a>
+            </div>
+            <a href="#" class="btn">About Me</a>
+        </div>
+        <div class="home-img">
+            <img src="home pic.png" alt="">
+        </div>
+    </section>
+
+<!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="home pic.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>BSIT 2C Student!</h3>
+            <p>19 years of age live in Pandan, Daraga, Albay. Loves to eat, read books and watch cartoons. 
+            My hobbies are playing badminton sometimes during my leisure time.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+        <div class="personal-background">
+            <h1 class="heading">Personal Background</h1>
+            <h2>Birthday: <span>January 13, 2004</span></h2>
+            <h2>Place of Birth: <span>Albay, Provincial, Hospital</span></h2>
+            <h3>Age: <span>19</span></h3>
+            <h4>Gender: <span>Female</span></h4>
+            <h4>Height: <span>150m</span></h4>
+            <h4>Weight: <span>40kg</span></h4>
+        </div>
+
+        <div>
+            <div class="educational-background">
+            <h1 class="heading">Educational Background</h1>
+            <h2>College: <span>Bicol University College of Science <br> BS Information Technology <br> 2020-2023</span></h2>
+            <h3>Senior High: <span>Malabog National High School <br> 2018-2020</span></h3>
+            <h3>Secondary: <span>Malabog National High School <br> 2014-2018</span></h3>
+            <h3>Elementary: <span>Busay Elementary School <br> 2008-2014</span></h3>
+        </div>
+
+        <div>
+            <div class="skills">
+            <h1 class="heading">Skills</h1>
+            <h2>Leadership</h2>
+            <h2>Problem-Solving Abilities</h2>
+            <h2>Designing</h2>
+            <h2>Networking</h2>
+        </div>
+
+<!--portfolio section design-->
+   
+    <div class="portfolio"></div>
+    <h1 class="heading">Portfolio</h1>
+
+        <section class="portfolio">
+            <div class="portTable">
+                <table id="portfolioTable">
+                    <tr>
+                        <td><img id="imgPort" src="clone.jpeg" alt="">
+                            One of the article i wrote in Special Topics In IT this semester.<br><br>
+                            <button id="buttonRead"><a href="">Read More</a> </button>
+                        </td>
+                        <td><img id="imgPort" src="tracker.jpeg" alt="">
+                            One of the article i wrote in Special Topics In IT this semester. <br><br>
+                            <button id="buttonRead"><a href="">Read More</a> </button>
+                        </td>
+                        <td><img id="imgPort" src="chip.jpeg" alt="">
+                            One of the article i wrote in Special Topics In IT this semester. <br><br>
+                            <button id="buttonRead"><a href="">Read More</a> </button>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </section>
+    
+<!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--custom js-->
+    <script src="home.js"></script>
+
+</body>
+
+</html>
