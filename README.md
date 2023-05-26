@@ -1,4 +1,4 @@
-2nd year BS Informatio Technology -Block C, 
+2nd year BS Information Technology -Block C, 
 Kristine M. Brimon
 Video link: https://drive.google.com/file/d/1kKR9svyfEPDqg0wS-edDKmJsxx8Czs8L/view?usp=share_link
 
